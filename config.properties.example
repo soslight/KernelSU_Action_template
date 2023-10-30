@@ -1,13 +1,13 @@
-KERNEL_SOURCE=
-KERNEL_SOURCE_BRANCH=
-KERNEL_CONFIG=
-KERNEL_IMAGE_NAME=
+KERNEL_SOURCE=https://github.com/LineageOS/android_kernel_lge_msm8998
+KERNEL_SOURCE_BRANCH=lineage-20
+KERNEL_CONFIG=joan_global_com_defconfig
+KERNEL_IMAGE_NAME=Image.gz-dtb
 ARCH=arm64
 
 ENABLE_CLANG=true
 USE_AOSP_CLANG=true
 AOSP_CLANG_SYSTEM=linux-x86
-AOSP_CLANG_BRANCH=master
+AOSP_CLANG_BRANCH=master-kernel-build-2022
 AOSP_CLANG_VERSION=r450784e
 USE_CUSTOM_CLANG=false
 CUSTOM_CLANG_SOURCE=https://github.com/magojohnji/ZyCromerZ-Clang.git
