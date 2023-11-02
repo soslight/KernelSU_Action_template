@@ -1,5 +1,5 @@
 KERNEL_SOURCE=https://github.com/SGCMarkus/android_kernel_lge_msm8998.git
-KERNEL_SOURCE_BRANCH=lineage-20
+KERNEL_SOURCE_BRANCH=lineage-18.1
 KERNEL_CONFIG=joan_global_com_defconfig
 KERNEL_IMAGE_NAME=Image.gz-dtb
 ARCH=arm64
